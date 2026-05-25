@@ -1,0 +1,196 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  font-family:Arial,sans-serif;
+
+  background:linear-gradient(
+  135deg,
+  #0f172a,
+  #1e293b,
+  #312e81);
+
+  color:white;
+}
+
+/* Clock */
+
+.clock{
+  margin-bottom:20px;
+  font-size:24px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+/* Calculator */
+
+.calculator{
+
+  width:360px;
+
+  padding:25px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.08);
+
+  backdrop-filter:blur(15px);
+
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+
+}
+
+.calculator h1{
+  text-align:center;
+  margin-bottom:20px;
+  color:#38bdf8;
+}
+
+/* Display */
+
+#display{
+
+  width:100%;
+
+  height:70px;
+
+  border:none;
+
+  outline:none;
+
+  border-radius:12px;
+
+  margin-bottom:20px;
+
+  padding:15px;
+
+  font-size:30px;
+
+  text-align:right;
+
+  background:#0f172a;
+
+  color:white;
+
+}
+
+/* Buttons */
+
+.buttons{
+
+  display:grid;
+
+  grid-template-columns:repeat(4,1fr);
+
+  gap:15px;
+
+}
+
+button{
+
+  height:65px;
+
+  border:none;
+
+  border-radius:12px;
+
+  font-size:22px;
+
+  cursor:pointer;
+
+  background:#334155;
+
+  color:white;
+
+  transition:0.3s;
+
+}
+
+button:hover{
+
+  transform:scale(1.08);
+
+  box-shadow:0 0 12px #38bdf8;
+
+}
+
+/* Operators */
+
+.operator{
+  background:#38bdf8;
+}
+
+.operator:hover{
+  background:#0ea5e9;
+}
+
+/* Equal */
+
+.equal{
+  background:#22c55e;
+}
+
+.equal:hover{
+  background:#16a34a;
+}
+
+/* Zero */
+
+.zero{
+  grid-column:span 2;
+}
+
+/* History */
+
+.history{
+
+  margin-top:25px;
+
+  background:#0f172a;
+
+  padding:15px;
+
+  border-radius:12px;
+
+  max-height:180px;
+
+  overflow-y:auto;
+
+}
+
+.history h3{
+  margin-bottom:10px;
+  color:#38bdf8;
+}
+
+.history ul{
+  list-style:none;
+}
+
+.history li{
+  padding:6px 0;
+  border-bottom:1px solid #334155;
+}
+
+/* Responsive */
+
+@media(max-width:450px){
+
+  .calculator{
+    width:95%;
+  }
+
+  button{
+    height:55px;
+    font-size:18px;
+  }
+
+}
