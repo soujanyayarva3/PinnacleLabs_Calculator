@@ -1,33 +1,84 @@
 # PinnacleLabs_Calculator
-Calculator App
-Simple Calculator using HTML, CSS, and JavaScript
 
-Overview
-This project is a basic calculator web application that performs simple arithmetic operations like addition, subtraction, multiplication, and division.
+A modern and responsive calculator application built using HTML, CSS, and JavaScript. The application performs arithmetic calculations while also displaying the current time, providing both utility and an enhanced user experience.
 
-Objective
-To build a simple and interactive calculator using frontend web development skills.
+## 🚀 Features
 
-Features
-Addition of numbers
-Subtraction of numbers
-Multiplication of numbers
-Division of numbers
-Clear/reset functionality
+* Basic Arithmetic Operations
 
-Technologies Used
-HTML
-CSS
-JavaScript
+  * Addition (+)
+  * Subtraction (-)
+  * Multiplication (×)
+  * Division (÷)
+* Real-Time Calculation Display
+* Clear (AC) Functionality
+* Live Date and Time Display
+* Responsive Design
+* Interactive User Interface
+* Fast and Accurate Calculations
 
-Project Workflow
-Create UI using HTML
-Style the calculator using CSS
-Add functionality using JavaScript
-Test basic arithmetic operations
+## 🛠️ Technologies Used
 
-Result
-The calculator successfully performs basic mathematical operations in the browser.
+* HTML5
+* CSS3
+* JavaScript (ES6)
 
-Author
-Soujanya Yarva
+## 📂 Project Structure
+
+```text
+Calculator-App/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## ⚙️ How It Works
+
+1. Launch the application in a web browser.
+2. Enter numbers using the calculator buttons.
+3. Select an arithmetic operator.
+4. Press the equals (=) button to display the result.
+5. View the current date and time displayed on the interface.
+6. Use the clear button to reset calculations.
+
+## 📊 Features Demonstrated
+
+* Calculator Logic Implementation
+* Dynamic DOM Updates
+* Real-Time Clock Functionality
+* Event Handling
+* Responsive User Interface Design
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* JavaScript Functions
+* DOM Manipulation
+* Event Handling
+* Arithmetic Logic Development
+* Real-Time Date & Time Handling
+* Responsive Web Design
+* Front-End Application Development
+
+## 🔮 Future Enhancements
+
+* Scientific Calculator Functions
+* Calculation History
+* Keyboard Input Support
+* Dark/Light Mode
+* Percentage and Square Root Operations
+* Memory Functions
+
+## 👩‍💻 Author
+
+**Soujanya Yarva**
+
+Aspiring Software Developer passionate about building interactive and user-friendly web applications.
+
+---
+
+⭐ Feel free to explore the project and provide feedback.
+
